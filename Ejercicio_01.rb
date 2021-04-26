@@ -19,6 +19,17 @@ class Person
             "Hola profesor. Mi nombre es #{self.name} #{self.last}."
         end
     end
+    
+    class Teacher < Person
+        def talk
+            "Bienvenidos a la clase de programación con Ruby!"
+        end
+    
+        def introduce
+            "Hola alumnos. Mi nombre es #{self.first} #{self.last}."
+        end
+    end
+    
 
     
    # def talk
