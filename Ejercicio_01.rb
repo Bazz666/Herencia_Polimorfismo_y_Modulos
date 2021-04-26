@@ -40,8 +40,22 @@ class Person
         end
     end
 
+    puts student= Student.new('Sergio', 'Herrera', 28)
+puts student.introduce
+puts student.talk
+puts student.birthday
+
+puts teacher= Teacher.new('Profe', 'Sergio', 58)
+puts teacher.introduce
+puts teacher.talk
+puts teacher.birthday
+
+puts parent= Parent.new('Don', 'Sergio', 48)
+puts parent.introduce
+puts parent.talk
+puts parent.birthday
     
-   # def talk
+# def talk
     #    if @type == "Student"
         #    puts "Aquí es la clase de programación con Ruby?"
         #elsif @type == "Teacher"
@@ -59,5 +73,5 @@ class Person
         #elsif @type == "Parent"
             #puts "Hola. Soy uno de los apoderados. Mi nombre es #{@first_name} #{@last_name}."
         #end
-   # end
-3nd
+# end
+
