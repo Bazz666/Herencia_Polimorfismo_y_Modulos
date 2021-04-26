@@ -55,4 +55,14 @@ class Animal
     end
 end
 
+#Crear las clases Ave , Mamifero e Insecto . Ambas heredan de Animal 
+
+class Ave < Animal
+end
+
+class Mamifero < Animal
+end
+
+class Insecto < Animal
+end
 
